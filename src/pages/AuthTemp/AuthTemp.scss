@@ -1,0 +1,25 @@
+.auth-left img {
+    height: 590px;
+    width: 100%;
+}
+.auth-container {
+    display: flex;
+    gap: 20px;
+}
+
+.app-logo-temp{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-right: 60px;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+
+    img{
+        height:40px;
+    }
+
+}

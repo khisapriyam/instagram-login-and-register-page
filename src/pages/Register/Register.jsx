@@ -1,12 +1,13 @@
 import React from 'react';
 import { GrFacebook } from 'react-icons/gr';
 import { Link } from 'react-router-dom';
+import AuthFooter from '../../components/AuthFooter/AuthFooter';
 import '../Login/Login.scss';
 import './Register.scss';
 
 const Register = () => {
   return (
-    <div className='login-container'>
+    <div className='login-container top-bar'>
       <div className="login-wrapper">
           <a className='login-logo-link' href="#"><img className='login-logo' src="https://www.instagram.com/static/images/web/logged_out_wordmark-2x.png/d2529dbef8ed.png" alt="" /></a>
 
@@ -42,6 +43,8 @@ const Register = () => {
               <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png" alt="" />
           </div>
       </div>
+
+      <AuthFooter />
   </div>
 
 

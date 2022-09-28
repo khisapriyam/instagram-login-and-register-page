@@ -2,6 +2,7 @@ import React from 'react';
 import { GrFacebook } from "react-icons/gr";
 import './Login.scss';
 import {Link} from 'react-router-dom';
+import AuthFooter from '../../components/AuthFooter/AuthFooter';
 
 const Login = () => {
   return (
@@ -33,6 +34,8 @@ const Login = () => {
                 <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png" alt="" />
             </div>
         </div>
+
+        <AuthFooter />
     </div>
   )
 };
