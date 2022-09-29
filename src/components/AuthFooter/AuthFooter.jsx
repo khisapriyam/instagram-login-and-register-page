@@ -24,7 +24,7 @@ const AuthFooter = () => {
           <select name="" id="">
             <option value="">English</option>
             <option value="">Bangla</option>
-            <option value="">Hindi</option>
+            <option value="">German</option>
             <option value="">Arabic</option>
           </select>
      

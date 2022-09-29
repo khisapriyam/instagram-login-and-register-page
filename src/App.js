@@ -2,8 +2,9 @@ import {Route, Routes} from "react-router-dom";
 import Login from "./pages/Login/Login";
 import Profile from "./pages/Profile/Profile";
 import Register from "./pages/Register/Register";
-import './App.scss';
+// import './App.scss';
 import Home from "./pages/Home/Home";
+import './App.scss'
 
 function App() {
   return (
